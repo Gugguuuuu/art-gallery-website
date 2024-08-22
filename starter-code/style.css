@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+:root{
+    --salmao:#D5966C;
+    --pretoUmPoucoNaoPreto:#151515;
+    --cinzaUmPoucoPouquinhoPreto:#444444;
+}
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+}
+header{
+    width:100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+header img{
+    height: 40%;
+    width: 100%;
+    
+}
+header h2{
+    font-size: 60px;
+    font-family: 'Big Shoulders Display';
+    font-weight: 800;
+    margin-left: 16.1px;
+    margin-right: 16.1px
+}
+#headerAndMain-p{
+    font-size: 18;
+    font-family: 'Arial';
+    margin: 16.1px;
+    
+}
+#header-divbutton{
+    width: auto;
+    height: auto;
+    display: flex;
+}
+#header-divbutton div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 204px;
+    height: 72px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin-left: 16.1px;
+}
+#header-divbutton div p{
+    font-family:'Big Shoulders Display';
+    font-weight:bolder;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+#header-divbutton button{
+    width: 56px;
+    height: 72px;
+    color: rgb(255, 255, 255);
+    background-color: var(--salmao);
+    font-weight: 100;
+    font-size: 40px;
+    border: 0;
+}
+
