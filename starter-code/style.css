@@ -84,6 +84,7 @@ img{
     width: 91.5%;
 }
 main{
+    background-color: aquamarine;
     height: auto;
     max-width:462px;
     display: flex;
