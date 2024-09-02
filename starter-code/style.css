@@ -81,6 +81,7 @@ p{
 img{
     overflow-clip-margin: content-box;
     overflow-y: hidden;
+    width: 91.5%;
 }
 main{
     height: auto;
